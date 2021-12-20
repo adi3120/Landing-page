@@ -1,0 +1,166 @@
+* {
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #FFFFFF;
+    max-width: 100vw;
+    overflow: hidden;
+    max-height: 100vh;
+}
+
+header {
+    display: flex;
+    background: #682E05;
+    width: auto;
+    height: 94px;
+    left: 0px;
+    top: 0px;
+    align-items: center;
+    padding-left: 16px;
+}
+
+header .logo {
+    font-family: 'Exo 2';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 22.9506px;
+    line-height: 22px;
+    text-transform: uppercase;
+    color: #E49900;
+}
+
+nav ul {
+    margin-left: 42px;
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+}
+
+nav ul li {
+    padding: 0px 25px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    font-family: 'Exo 2';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 150.5%;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+main .hero-img img {
+    position: absolute;
+    width: 1000px;
+    height: 1070px;
+    left: 1000px;
+    top: -95px;
+}
+
+main h1 {
+    font-family: 'Exo 2';
+    font-style: normal;
+    font-size: 64.3345px;
+    font-weight: 400;
+    line-height: 96%;
+    /* or 62px */
+    text-transform: uppercase;
+    color: #682E05;
+    position: absolute;
+    width: 585.32px;
+    height: 212.06px;
+    left: 201px;
+    top: 169px;
+}
+
+span {
+    font-family: 'Exo 2';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 119.012px;
+    line-height: 80%;
+    /* or 95px */
+    text-transform: uppercase;
+    color: #FFA800;
+}
+
+main p {
+    position: absolute;
+    width: 549px;
+    height: 103px;
+    left: 201px;
+    top: 404px;
+    font-family: 'Exo 2';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 21px;
+    line-height: 150.5%;
+    /* or 32px */
+    color: #6A2C00;
+}
+
+main .book {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #A85000;
+    border-radius: 54px;
+    /* Inside Auto Layout */
+    margin: 10px 0px;
+    font-family: 'Exo 2';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 150.5%;
+    /* or 27px */
+    text-align: center;
+    letter-spacing: 0.035em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    position: absolute;
+    width: 227px;
+    height: 80px;
+    left: 187px;
+    top: 530px;
+}
+
+main .takeout {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #FFFFFF;
+    border: 4px solid #A85000;
+    box-sizing: border-box;
+    border-radius: 54px;
+    /* Inside Auto Layout */
+    margin: 10px 0px;
+    position: absolute;
+    width: 227px;
+    height: 80px;
+    left: 413px;
+    top: 530px;
+    font-family: 'Exo 2';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 150.5%;
+    /* or 27px */
+    text-align: center;
+    letter-spacing: 0.035em;
+    text-transform: uppercase;
+    color: #A85000;
+}
+
+nav ul li a:hover {
+    color: #FFA800;
+}
+
+main button:hover {
+    color: #682E05;
+    background-color: #FFA800;
+    border: none;
+}
